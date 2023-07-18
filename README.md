@@ -23,3 +23,7 @@ The actual procedure to action the business process:
 
 ![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/4168e1c3-cdcf-459a-a148-c8143c4e6697)
 
+Legacy code vs pointer code
+![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/64bad964-ea4b-4ba5-8156-ddee8ff69aec)
+
+
