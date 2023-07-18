@@ -5,7 +5,7 @@ My first contribution to GitHub is a procedure execution pointers in relation to
 
 Here is a legacy piece of processing:
 
-![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/78a08252-82ca-4b2b-9f7d-8677c5803460 = 250x250)
+![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/78a08252-82ca-4b2b-9f7d-8677c5803460 {width=40px height=400px})
 
 Let's try and make this pointer based:
 
