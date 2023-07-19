@@ -21,11 +21,12 @@ Procedure in detail:
 
 The actual procedure to action the business process:
 
-![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/23470265-3a36-454c-ba98-0419dc3bb8a6)
+![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/29df3bd4-e672-4617-87d3-a7633952913e)
 
 Legacy code vs pointer code
 
-![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/29df3bd4-e672-4617-87d3-a7633952913e)
+![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/e6217458-a8ed-4e0b-80f5-40042ad91db7)
+
 
 
 
