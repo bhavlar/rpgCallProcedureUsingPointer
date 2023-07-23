@@ -27,6 +27,23 @@ Legacy code vs pointer code
 
 ![image](https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/e6217458-a8ed-4e0b-80f5-40042ad91db7)
 
+POC
+The repo has a proof on concept command & program called pocprctblx.cmd & pocprctblx.rpgle. These two objects are just to test the concept, the actual legacy code within a program that has a conventional setll/reade with loop processing would be replaced with the new procedure call.
 
+POC Structure:
+
+**command: pocprctblx **
+command execution: pocprctblx sqlScript('select * from tablex') parm01('VALUE01') parm02('VALUE02') parm03('VALUE03')
+command pocprctblx executes program pocprctblx
+
+**program: pocprctblx**
+program execution: call pgm(pocprctblx) parms('select * from tablex' 'VALUE1' 'VALUE2' 'VALUE3')
+program prcocedure execution: processTableXUsingProcedurePointer(sqlScript:procedurePointer:parameterPointer);
+
+**procedure: processTableXUsingProcedurePointer**
+procedure processTableXUsingProcedurePointer calls procedure doTableXRowProcessing
+
+**procedure: doTableXRowProcessing**
+procedure doTableXRowProcessing executes the actual row level business process.
 
 
