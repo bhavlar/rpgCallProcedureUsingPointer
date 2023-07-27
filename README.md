@@ -1,5 +1,5 @@
 # rpgCallProcedureUsingPointer
-RPG Use pointers as procedure and parameter pointers
+RPG example Using pointers as procedure and parameter pointers
 
 My first contribution to GitHub is a procedure execution using procedure pointer and parameter as a pointer.
 
