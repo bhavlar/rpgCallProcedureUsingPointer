@@ -31,3 +31,9 @@ RPG example Using pointers as procedure and parameter pointers
 <br>procedure processTableXUsingProcedurePointer calls procedure doSomeProcessing
 <br><br>**procedure: doSomeProcessing**
 <br>procedure doSomeProcessing executes the actual row level business process.
+<br><br>Converting many programs from legacy code style to using the procedure pointer model could look like:
+<br><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/e0241833-d91f-4db7-8c26-739d66a13c3a"  width="1000" height="600">
+<br><br>The access to tableX was an F spec or SQL script within three legacy programs. 
+<br><br>The new model has provided a mechanism of moving tableX select access from 3 programs to 1 lower level procedure.
+<br><br> We have modularised and layered the select access of tableX!
+
