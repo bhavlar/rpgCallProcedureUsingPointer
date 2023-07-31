@@ -1,20 +1,36 @@
 # rpgCallProcedureUsingPointer
 RPG example Using pointers as procedure and parameter pointers
 <br><br>My first contribution to GitHub is a procedure execution using procedure pointer and parameter as a pointer.
-<br><table>
-  <tr><td>Here is a legacy piece of processing:</td><td>Let's try and make this pointer based:</td><td>Converted legacy code to pointer solution</td></tr>
+<br><table border="1">
+  <tr><td>Existing legacy processing:</td>
+      <td>&nbsp;</td>
+      <td>Prime:<br>SQL variable<br>ProcedurePointer<br>Parameter pointer</td>      
+      <td>&nbsp;</td>
+      <td>Call procedure pointer solution</td>
+  </tr>
   <tr>
     <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/b589cebf-7fe9-4107-b841-106d5aeadf70?width=150&height=200" width="300" height="200"></td>
+    <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/5df0341f-36d2-464c-a98e-8eaf5593df66" width="50" height="50"></td>
     <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/fa77812f-fad2-4d16-b002-2c67ac6ae181" width="300" height="200"></td>
+    <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/5df0341f-36d2-464c-a98e-8eaf5593df66" width="50" height="50"></td>    
     <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/ce98fcc7-3cfd-4068-812f-dc2741041259" width="300" height="200"></td>
   </tr>
 </table>
-<br>Procedure in detail:
-<br><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/aa501626-ded7-420a-8d4d-e1c65540cbbc" width="400" height="200">
-<br>The actual procedure to action the business process:
-<br><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/29df3bd4-e672-4617-87d3-a7633952913e" width="400" height="200">
-<br>Legacy code vs pointer code
-<br><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/e6217458-a8ed-4e0b-80f5-40042ad91db7" width="400" height="300">
+<br>
+<table border="1">
+   <tr>
+     <td>Procedure processTablexRowsUsingPointer processing</td>
+     <td>&nbsp;</td>
+     <td>Procedure doSomeProcessing, the actual business process</td>
+   </tr>
+   <tr>
+     <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/aa501626-ded7-420a-8d4d-e1c65540cbbc" width="400" height="200"></td>
+     <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/5df0341f-36d2-464c-a98e-8eaf5593df66" width="50" height="50"></td></td>
+     <td><img src="https://github.com/bhavlar/rpgCallProcedureUsingPointer/assets/62497210/29df3bd4-e672-4617-87d3-a7633952913e" width="400" height="200"></td>
+   </tr>
+</table> 
+<br>
+
 <br><br>**Information:**
 <br>This repo has a proof of concept command and program:
 <br><br>Command: pocprctblx
