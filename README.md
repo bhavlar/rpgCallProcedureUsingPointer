@@ -1,7 +1,11 @@
 # rpgCallProcedureUsingPointer
 RPG example Using pointers as procedure and parameter pointers
 <br><br>My first contribution to GitHub is a procedure execution using procedure pointer and parameter as a pointer.
-<br><table border="1">
+<br><br>Existing tableX is a table that is accessed by many RPG* programs/procedures via F spec or sql script.
+<br><br>I want to apply modular and layered solution to accessing/selecting data from tablex.
+<br><br>Solution is to leverage pointers for both procedure execution and pointing to program/procedure variable values.
+<br><br>Game plan is to remove the legacy use of the classic setll, readE and dow loop processing tableX data with a procedure with pointers solution.
+<br><br><table border="1">
   <tr><td>Existing legacy processing:</td>
       <td>&nbsp;</td>
       <td>Prime:<br>SQL variable<br>ProcedurePointer<br>Parameter pointer</td>      
